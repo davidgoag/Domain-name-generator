@@ -19,8 +19,9 @@ window.onload = function() {
     for (let adjs of adj) {
       for (let nous of noun) {
         for (let fours of four) {
-          document.querySelector("#ola").innerHTML +=
-            "<li>" + "www." + pronouns + adjs + nous + fours + "</li>";
+          document.querySelector(
+            "#ola"
+          ).innerHTML += `<li class="listitem1">www.${pronouns}${adjs}${nous}${fours}</li>`;
         }
       }
     }

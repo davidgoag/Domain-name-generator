@@ -1,1 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.listitem1 {
+  font-family: "Tangerine", serif;
+  font-size: 48px;
+}
